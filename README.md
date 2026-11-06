@@ -2,6 +2,10 @@
 
 A reproducible analysis of the University of Cologne’s Cool City Lab. **How did temperatures inside boxes beneath tar, sand, grass and gravel differ during the same measurement hours?** These are box temperatures, not surface or outdoor air temperatures.
 
+## Learn the workflow
+
+[**Türkçe uygulamalı notebook**](tutorial_tr.ipynb): önce küçük bir sentetik örnekle saatlik eşleştirmeyi öğren, sonra üniversitenin verileriyle aynı adımları çalıştır. Notebook; veri temizliği, kapsama eşiği, sonuçların yorumu ve kısa alıştırmalar içerir.
+
 ## Findings
 
 From 7 June to 13 July 2021, **886 of 888** recorded-clock hours had at least 10 readings for each of the four boxes. The tar box was warmer on average than all three comparison boxes.
