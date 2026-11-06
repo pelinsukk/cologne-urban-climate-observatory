@@ -1,0 +1,85 @@
+{
+  "start_box_clock": "2021-06-07 00:00:00",
+  "end_box_clock_exclusive": "2021-07-14 00:00:00",
+  "possible_hours": 888,
+  "paired_hours_min_10": 886,
+  "paired_hours_min_12": 884,
+  "tar_minus_other_min_10": {
+    "sand": {
+      "mean_c": 1.3447078527943088,
+      "median_c": 0.7280000000000006,
+      "p10_c": -0.011083333333332668,
+      "p90_c": 3.891750000000002,
+      "tar_warmer_fraction": 0.891647855530474
+    },
+    "grass": {
+      "mean_c": 1.7676285877967028,
+      "median_c": 1.0369166666666647,
+      "p10_c": -0.03370833333333323,
+      "p90_c": 4.642166666666668,
+      "tar_warmer_fraction": 0.8690744920993227
+    },
+    "gravel": {
+      "mean_c": 1.6716823312128046,
+      "median_c": 1.0582083333333347,
+      "p10_c": 0.03220833333333406,
+      "p90_c": 4.345125000000001,
+      "tar_warmer_fraction": 0.9119638826185101
+    }
+  },
+  "tar_minus_other_min_12": {
+    "sand": {
+      "mean_c": 1.3460078242835596,
+      "median_c": 0.7280000000000006,
+      "p10_c": -0.009649999999998812,
+      "p90_c": 3.8922166666666684,
+      "tar_warmer_fraction": 0.8925339366515838
+    },
+    "grass": {
+      "mean_c": 1.7680729638009047,
+      "median_c": 1.034416666666667,
+      "p10_c": -0.033791666666667906,
+      "p90_c": 4.653633333333336,
+      "tar_warmer_fraction": 0.8687782805429864
+    },
+    "gravel": {
+      "mean_c": 1.6733558634992451,
+      "median_c": 1.0582083333333347,
+      "p10_c": 0.03139166666666911,
+      "p90_c": 4.350141666666671,
+      "tar_warmer_fraction": 0.9117647058823529
+    }
+  },
+  "box_file_quality": {
+    "sand": {
+      "source_rows": 123043,
+      "missing_or_invalid_temperature": 20077,
+      "invalid_timestamp": 0,
+      "duplicate_valid_timestamps": 12
+    },
+    "grass": {
+      "source_rows": 123043,
+      "missing_or_invalid_temperature": 12545,
+      "invalid_timestamp": 0,
+      "duplicate_valid_timestamps": 0
+    },
+    "gravel": {
+      "source_rows": 122891,
+      "missing_or_invalid_temperature": 16610,
+      "invalid_timestamp": 0,
+      "duplicate_valid_timestamps": 12
+    },
+    "tar": {
+      "source_rows": 123042,
+      "missing_or_invalid_temperature": 12539,
+      "invalid_timestamp": 0,
+      "duplicate_valid_timestamps": 0
+    }
+  },
+  "weather_context": {
+    "utc_rows": 6462,
+    "valid_air_temperature_rows": 6462,
+    "mean_air_temperature_c": 21.982466728567008,
+    "days_with_at_least_216_readings": 19
+  }
+}
